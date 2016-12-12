@@ -21,14 +21,3 @@ LOAD DATA LOCAL INFILE 'D:\\AIRLINE_RESERVATION\\data\\fares_seats.csv' REPLACE 
 LOAD DATA LOCAL INFILE 'D:\\AIRLINE_RESERVATION\\newdata\\airplanes_weekly_schedule.txt' REPLACE INTO TABLE airplanes_weekly_schedule FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\r\n' (ID, FLIGHT_ID, WEEK_DAYS, J_TIME, S_TIME);
 
 LOAD DATA LOCAL INFILE 'D:\\AIRLINE_RESERVATION\\newdata\\airplanes_info.txt' REPLACE INTO TABLE airplanes_info FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\r\n' (ID,PLANE_ID,CLASS_ID,NUM_SEATS,NUM_FARE);
-
-
-select * from travel_class into outfile 'D:\\AIRLINE_RESERVATION\\newdata\\travel_class.txt' FIELDS  TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\r\n';
-
-select * from pass_type into outfile 'D:\\AIRLINE_RESERVATION\\newdata\\pass_type.txt' FIELDS  TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\r\n';
-
-select * from airlines into outfile 'D:\\AIRLINE_RESERVATION\\newdata\\airlines.txt' FIELDS  TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\r\n';
-
-select * from airports into outfile 'D:\\AIRLINE_RESERVATION\\newdata\\airports.txt' FIELDS  TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\r\n';
-
-select * from route into outfile 'D:\\AIRLINE_RESERVATION\\newdata\\route.txt' FIELDS  TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\r\n';
