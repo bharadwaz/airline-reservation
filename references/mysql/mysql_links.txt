@@ -1,0 +1,10 @@
+To set the password for the root, In case we need
+Default Username: root
+Default Password: <no password>
+http://dev.mysql.com/doc/refman/5.7/en/resetting-permissions.html
+
+
+
+
+How to start the Mysql Shell
+http://stackoverflow.com/questions/13752424/how-to-connect-from-windows-command-prompt-to-mysql-command-line

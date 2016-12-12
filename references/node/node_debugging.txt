@@ -1,0 +1,5 @@
+How to debug in nodejs
+https://spin.atomicobject.com/2015/09/25/debug-node-js/
+
+How to create routes
+https://expressjs.com/en/guide/routing.html

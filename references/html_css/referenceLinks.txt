@@ -1,0 +1,6 @@
+Calender Header color setting
+http://www.hongkiat.com/blog/jquery-ui-datepicker/
+autocomplete
+http://jsfiddle.net/zeSTc/
+http://jsfiddle.net/trevordowdle/DLLVw/104/
+http://stackoverflow.com/questions/23573594/jquery-autocomplete-highlight
